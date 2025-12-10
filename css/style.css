@@ -1,7 +1,6 @@
-header.py-3 {
-    padding-top: 0 important!;
-    padding-bottom: 0 important!;
-    margin: 0;
+header.py-3  {
+    padding-top: 0rem important!;
+    padding-bottom: 0rem important!;
 }
 
 img {
@@ -20,4 +19,41 @@ img {
 
 .btn { 
     background-color: #9E83B8;
+}
+
+#thehero {
+width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/forest_greenery.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.the-inner {
+    /* background-color: rgba(256,256,256,0.8); */
+    width: 90vw;
+    padding: 1rem;
+}
+
+.the-inner h1{
+    color: #fff;
+font-family: 'Libre Baskerville', serif;
+font-style: italic;
+font-weight: 400;
+line-height: 1.4;
+font-size: 2.1rem;
+
+}
+
+.the-inner p {
+color: #606061;
+text-align: left;
+font-size: 1.1rem;  
 }
